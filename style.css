@@ -1,9 +1,9 @@
 /*
 Color Palette:
-background color: #1C0A00
-font color: #361500 
-secondary color: #603601
-tertiary color:  #CC9544
+background color: #FFEFE2
+font color: #EFD345
+secondary color: #BABD42
+tertiary color:  #82954B
 */
 
 /* CSS syntax notes:
@@ -21,20 +21,22 @@ header {
     margin:0 4rem;
     letter-spacing: 0.8rem;
     text-align: center;
-    border-bottom: 1px solid #CC9544;
-    border-right: 1px solid #CC9544;
-    border-left: 1px solid #CC9544;
+    border-bottom: 1px solid #82954B;
+    border-right: 1px solid #82954B;
+    border-left: 1px solid #82954B;
     padding: 0.5rem;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
     font-size: 1.1rem;
+    
 }
 
 body {
-    background-color: #1C0A00;
-    color: #361500;
+    background-color: #FFEFE2;
+    color: #EFD345;
     font-family: 'Open Sans', sans-serif; 
     margin: 0;
+    text-shadow: 2px 2px teal;
 }
 
 cite {
@@ -62,11 +64,11 @@ p {
 
 .imageCard a {
     text-decoration: none;
-    color: #CC9544;
+    color: #82954B;
 }
 
 .cardText {
-    color: #603601;
+    color: #BABD42;
     text-align: center;
     padding: 2rem;
     border-radius: 30px;
