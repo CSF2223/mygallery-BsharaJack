@@ -28,7 +28,6 @@ header {
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
     font-size: 1.1rem;
-    
 }
 
 body {
@@ -36,7 +35,7 @@ body {
     color: #EFD345;
     font-family: 'Open Sans', sans-serif; 
     margin: 0;
-    text-shadow: 2px 2px teal;
+    text-shadow: 2px 2px #82954B;
 }
 
 cite {
@@ -93,4 +92,13 @@ p {
 } 
     img:hover {
         border-radius: 50%;
+        filter:contrast(0);
+        animation-name: IMGswap;
+        animation-duration: 20s;
+        
+    }
+    
+    @keyframes IMGswap{
+        from {filter:contrast(0)}
+        to {filter: contrast(100)} 
     }
